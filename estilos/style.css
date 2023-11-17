@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191825;
+}
+
+#imagem {
+    background-image: url(../imagens/imagem.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 250px;
+    height: 155.86px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#area {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  1px 1px 20px rgba(0, 0, 0, 0.514);
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+form {
+    padding: 10px;
+    margin: auto;
+}
+
+input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: #bea8ff;
+    border: none;
+    color: #191825;
+}
+
+input::placeholder {
+    color: #4d4a6e;
+  }
+
+#demail {
+    background-color: #191825;
+    border-radius: 10px;
+    border: 3px solid #191825;
+}
+
+#dsenha {
+    background-color: #191825;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 3px solid #191825;
+}
+
+#user, #cadeado {
+    display: inline-block;
+    color: #865dff;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+#ientrar {
+    display: block;
+    background-color: #865DFF;
+    color: white;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#ientrar:hover {
+    background-color: #7243ff;
+}
+
+#iforget {
+    margin-top: 10px;
+    display: block;
+    background-color: white;
+    color: #865DFF;
+    border: 1px solid #865DFF;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+#iforget:hover {
+    background-color: #b9a1ff;
+    color: #191825;
+    border: none;
+}
+
+#msg {
+    font-size: 1.2em;
+    vertical-align: middle;
+}
